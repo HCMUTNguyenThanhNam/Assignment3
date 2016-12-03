@@ -111,11 +111,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AVLTree.cpp" />
+    <ClCompile Include="EdgeW.cpp" />
+    <ClCompile Include="ExAVLTree.cpp" />
+    <ClCompile Include="ExGraph.cpp" />
+    <ClCompile Include="ExHeap.cpp" />
+    <ClCompile Include="ExMatrix.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Heap.cpp" />
+    <ClCompile Include="InputReader.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Node.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AVLTree.h" />
+    <ClInclude Include="EdgeW.h" />
+    <ClInclude Include="ExAVLTree.h" />
+    <ClInclude Include="ExGraph.h" />
+    <ClInclude Include="ExHeap.h" />
+    <ClInclude Include="ExMatrix.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="Heap.h" />
+    <ClInclude Include="InputReader.h" />
     <ClInclude Include="Node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

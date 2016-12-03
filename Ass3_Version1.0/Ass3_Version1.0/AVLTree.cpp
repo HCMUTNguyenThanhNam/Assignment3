@@ -176,7 +176,7 @@ void AVLTree::DeleteLeftBalance(bool& shorter) {
 	}
 	else {
 		Node* leftTree = root->left;
-		if (leftTree->balance = RIGHT) {
+		if (leftTree->balance == RIGHT) {
 			Node* rightTree = leftTree->right;
 			if (rightTree->balance == RIGHT) {
 				leftTree->balance = LEFT;
